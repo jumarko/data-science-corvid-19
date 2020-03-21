@@ -4,7 +4,7 @@ A simple data science project, working with data from [Johns Hopkins University]
 Based on the [Baby steps with Covid-19 data for Clojure programmers](https://dragan.rocks/articles/20/Corona-1-Baby-steps-with-Covid-19-for-programmers)  by [dragon.rocks](https://dragan.rocks/articles/20/Corona-1-Baby-steps-with-Covid-19-for-programmers).  Please consider sponsoring the excellent work that Dragan Djuric produces.
 
 ## Usage
-Open the project in your favorite Clojure editor and start the REPL.
+Open the `src/practicalli/design_journal.clj` file from the project in your favorite Clojure editor and start the REPL.  Starting at the top of the page, evaluate the individual expressions and experiment.
 
 ## Deployment
 Build a deployable jar of this library:
