@@ -38,8 +38,12 @@ data-cache
 
 (slurp (io/reader data))
 
+
+;; Save the data file locally
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; To save hitting GitHub with multiple calls throughout the development,
 ;; copy the file to `resources` directory.
+;; https://raw.githubusercontent.com/open-covid-19/data/master/output/world.csv
 
 (def data-local "resources/world.csv")
 
@@ -444,8 +448,7 @@ covid-world-data-converted
 ;; Explicitly plotting the change
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-
-
+;; Show the range of changes of confirmed cases
 
 (defn absolute-plot [series-data]
   (.plot (ASCIIGraph/fromSeries
