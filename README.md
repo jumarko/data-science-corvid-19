@@ -1,4 +1,5 @@
-# corvid-19
+# corvid-19 - ARCHIVED see https://github.com/jumarko/clojure-experiments/blob/master/src/clojure_experiments/stats/covid19.clj#L1
+
 A simple data science project, working with data from [Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19).
 
 Based on the [Baby steps with Covid-19 data for Clojure programmers](https://dragan.rocks/articles/20/Corona-1-Baby-steps-with-Covid-19-for-programmers)  by [dragon.rocks](https://dragan.rocks/articles/20/Corona-1-Baby-steps-with-Covid-19-for-programmers).  Please consider sponsoring the excellent work that Dragan Djuric produces.
